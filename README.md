@@ -6,7 +6,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/node-lts?style=for-the-badge)](https://github.com/OzzyCzech/node-lts/commits/main)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/OzzyCzech/node-lts/main.yml?style=for-the-badge)](https://github.com/OzzyCzech/node-lts/actions)
 
-> Get active Node.js LTS and current version numbers.
+Get active Node.js LTS and [current](https://nodejs.org/en/about/releases/) version numbers.
 
 ## Usage
 
@@ -49,8 +49,11 @@ console.log(current); // 25
 
 ## Data source
 
-Version data is fetched from the official Node.js Release Working Group schedule:  
-`https://raw.githubusercontent.com/nodejs/Release/main/schedule.json`
+Version data is fetched from the official Node.js Release Working Group schedule:
+
+```
+https://raw.githubusercontent.com/nodejs/Release/main/schedule.json
+```
 
 ## License
 
