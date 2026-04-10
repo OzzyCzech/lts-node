@@ -1,10 +1,10 @@
-# @ozzyczech/node-lts
+# lts-node
 
-[![NPM Downloads](https://img.shields.io/npm/dm/@ozzyczech/node-lts?style=for-the-badge)](https://www.npmjs.com/package/@ozzyczech/node-lts)
-[![NPM Version](https://img.shields.io/npm/v/@ozzyczech/node-lts?style=for-the-badge)](https://www.npmjs.com/package/@ozzyczech/node-lts)
-[![NPM License](https://img.shields.io/npm/l/@ozzyczech/node-lts?style=for-the-badge)](https://github.com/OzzyCzech/node-lts/blob/main/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/node-lts?style=for-the-badge)](https://github.com/OzzyCzech/node-lts/commits/main)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/OzzyCzech/node-lts/main.yml?style=for-the-badge)](https://github.com/OzzyCzech/node-lts/actions)
+[![NPM Downloads](https://img.shields.io/npm/dm/lts-node?style=for-the-badge)](https://www.npmjs.com/package/lts-node)
+[![NPM Version](https://img.shields.io/npm/v/lts-node?style=for-the-badge)](https://www.npmjs.com/package/lts-node)
+[![NPM License](https://img.shields.io/npm/l/lts-node?style=for-the-badge)](https://github.com/OzzyCzech/lts-node/blob/main/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/OzzyCzech/lts-node?style=for-the-badge)](https://github.com/OzzyCzech/lts-node/commits/main)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/OzzyCzech/lts-node/main.yml?style=for-the-badge)](https://github.com/OzzyCzech/lts-node/actions)
 
 Get active Node.js LTS and [current](https://nodejs.org/en/about/releases/) version numbers.
 
@@ -13,7 +13,7 @@ Get active Node.js LTS and [current](https://nodejs.org/en/about/releases/) vers
 ### CLI via npx
 
 ```sh
-npx @ozzyczech/node-lts
+npx lts-node
 ```
 
 Output:
@@ -35,11 +35,11 @@ Output:
 ### Library
 
 ```sh
-npm install @ozzyczech/node-lts
+npm install lts-node
 ```
 
 ```ts
-import { getNodeVersions } from '@ozzyczech/node-lts';
+import { getNodeVersions } from 'lts-node';
 
 const { active, lts, current } = await getNodeVersions();
 console.log(active);  // [20, 22, 24, 25]

@@ -1,5 +1,5 @@
 {
-  "name": "@ozzyczech/node-lts",
+  "name": "lts-node",
   "version": "1.0.1",
   "description": "Get active Node.js LTS and current version numbers",
   "license": "MIT",
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/OzzyCzech/node-lts.git"
+    "url": "https://github.com/OzzyCzech/lts-node.git"
   },
-  "homepage": "https://github.com/OzzyCzech/node-lts#readme",
+  "homepage": "https://github.com/OzzyCzech/lts-node#readme",
   "bugs": {
-    "url": "https://github.com/OzzyCzech/node-lts/issues"
+    "url": "https://github.com/OzzyCzech/lts-node/issues"
   },
   "type": "module",
   "main": "./dist/index.js",
@@ -29,7 +29,7 @@
     }
   },
   "bin": {
-    "node-lts": "./dist/cli.js"
+    "lts-node": "./dist/cli.js"
   },
   "engines": {
     "node": ">=18"
