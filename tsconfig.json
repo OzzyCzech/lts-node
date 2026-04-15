@@ -2,9 +2,7 @@
   "extends": "@ozzyczech/tsconfig",
   "compilerOptions": {
     "incremental": false,
-    "ignoreDeprecations": "6.0",
-    "types": ["node"],
-    "outDir": "dist"
+    "types": ["node"]
   },
   "include": ["src"]
 }

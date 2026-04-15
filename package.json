@@ -40,8 +40,8 @@
     "node": ">=24"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "test": "vitest run",
     "test:watch": "vitest",
     "prepublishOnly": "pnpm run build && pnpm test"
@@ -49,7 +49,7 @@
   "devDependencies": {
     "@ozzyczech/tsconfig": "^2.0.0",
     "@types/node": "^25.6.0",
-    "tsup": "^8.5.1",
+    "tsdown": "^0.21.8",
     "typescript": "^6.0.2",
     "vitest": "^4.1.4"
   }
